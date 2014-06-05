@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gt.helprtq.Audit" >
+
+    <item
+        android:id="@+id/elimina_audit"
+        android:orderInCategory="100"
+        android:title="@string/elimina_audit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nuovo_audit"
+        android:orderInCategory="100"
+        android:title="@string/nuovo_audit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/modifica_audit"
+        android:orderInCategory="100"
+        android:title="@string/modifica_audit"
+        app:showAsAction="ifRoom"/>
+    
+</menu>

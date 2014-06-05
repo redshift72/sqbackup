@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gt.helprtq.MainActivity" >
+
+    <item
+        android:id="@+id/elimina"
+        android:orderInCategory="100"
+        android:title="@string/elimina"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/assessment"
+        android:orderInCategory="100"
+        android:title="@string/assessment"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/audit"
+        android:orderInCategory="100"
+        android:title="@string/audit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/auto"
+        android:orderInCategory="100"
+        android:title="@string/auto"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pt"
+        android:orderInCategory="100"
+        android:title="@string/pt"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/visita"
+        android:orderInCategory="100"
+        android:title="@string/visita"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nuovo"
+        android:orderInCategory="100"
+        android:title="@string/nuovo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/modifica"
+        android:orderInCategory="100"
+        android:title="@string/modifica"
+        app:showAsAction="ifRoom"/>
+    
+</menu>

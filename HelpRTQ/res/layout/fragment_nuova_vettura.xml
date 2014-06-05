@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:id="@+id/linearlayoutVettura"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/et_ve_telaio"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:hint="@string/et_ve_telaio" />
+		<ToggleButton 
+		    android:id="@+id/tb_ve_esito_batteria"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Esito batteria positivo"
+		    android:textOff="Esito batteria NEGATIVO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_ve_esito_pneumatici"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Esito pneumatici positivo"
+		    android:textOff="Esito pneumatici NEGATIVO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_ve_esito_docu"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Esito documentazione positivo"
+		    android:textOff="Esito documentazione NEGATIVO"
+		    android:onClick="onToggleClicked"/>
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:text="@string/salva_ve" 
+	        android:onClick="salva" />
+	    	    	    
+	</LinearLayout>
+	    
+</ScrollView>

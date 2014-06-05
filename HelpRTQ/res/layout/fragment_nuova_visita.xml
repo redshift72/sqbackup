@@ -1,0 +1,196 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:id="@+id/linearlayoutVisita"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/visita_data"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:inputType="date"
+	        android:hint="@string/visita_data" />
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckRtqAudi"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck RTQ Audi Ok"
+		    android:textOff="qCheck RTQ Audi KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckRtqVW"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck RTQ VW Ok"
+		    android:textOff="qCheck RTQ VW KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckRtqSkoda"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck RTQ Skoda Ok"
+		    android:textOff="qCheck RTQ Skoda KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckRtqSeat"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck RTQ Seat Ok"
+		    android:textOff="qCheck RTQ Seat KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckRtqVic"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck RTQ Vic Ok"
+		    android:textOff="qCheck RTQ Vic KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckAudi"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck Audi Ok"
+		    android:textOff="qCheck Audi KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckVW"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck VW Ok"
+		    android:textOff="qCheck VW KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckSkoda"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck Skoda Ok"
+		    android:textOff="qCheck Skoda KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckSeat"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck Seat Ok"
+		    android:textOff="qCheck Seat KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_qcheckVic"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="qCheck Vic Ok"
+		    android:textOff="qCheck Vic KO"
+		    android:onClick="onToggleClicked"/>
+		<EditText
+	        android:id="@+id/visita_diss"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_diss" />
+		<EditText
+	        android:id="@+id/visita_dissInfo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_dissInfo" />
+		<EditText
+	        android:id="@+id/visita_dissRichiestaTecnica"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_dissRichiestaTecnica" />
+		<ToggleButton 
+		    android:id="@+id/visita_diss2Settimane"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Diss 2 settimane Ok"
+		    android:textOff="Diss 2 settimane KO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/visita_diss8Settimane"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Diss 8 settimane Ok"
+		    android:textOff="Diss 8 settimane KO"
+		    android:onClick="onToggleClicked"/>
+	    <EditText
+	        android:id="@+id/visita_attrezzatura"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_attrezzatura" />
+	   	<ToggleButton 
+		    android:id="@+id/visita_ruoliInBdo"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Ruoli BDO Ok"
+		    android:textOff="Ruoli BDO KO"
+		    android:onClick="onToggleClicked"/>
+	   	<ToggleButton 
+		    android:id="@+id/visita_ccAzioniDiRichiamo"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="cc azioni di richiamo Ok"
+		    android:textOff="cc azioni di richiamo KO"
+		    android:onClick="onToggleClicked"/>
+	   	<ToggleButton 
+		    android:id="@+id/visita_rrStampaCorrettivo"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="rr Stampa correttivo Ok"
+		    android:textOff="rr Stampa correttivo KO"
+		    android:onClick="onToggleClicked"/>
+		<Spinner
+		    android:id="@+id/visita_cssAudi"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+		<Spinner
+		    android:id="@+id/visita_cssVW"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+		<Spinner
+		    android:id="@+id/visita_cssSkoda"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+		<Spinner
+		    android:id="@+id/visita_cssSeat"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+		<Spinner
+		    android:id="@+id/visita_cssVic"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/visita_odlFatture"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_odlFatture" />
+	    <EditText
+	        android:id="@+id/visita_formazione"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_formazione" />
+	   	<ToggleButton 
+		    android:id="@+id/visita_relazione"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="relazione fatta"
+		    android:textOff="relazione NON fatta"
+		    android:onClick="onToggleClicked"/>
+	   	<EditText
+	        android:id="@+id/visita_note"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/visita_note" />
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:text="@string/visita_salva" 
+	        android:onClick="salva" />
+	    	    	    
+	</LinearLayout>
+    
+</ScrollView>
+    

@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:id="@+id/linearlayoutCliente"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/etClienteNome"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:hint="@string/cliente_nome" />
+	    <EditText
+	        android:id="@+id/etClienteIndirizzo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/cliente_indirizzo" />
+	    <EditText
+	        android:id="@+id/etclienteCodiceOrganizzato"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        android:hint="@string/cliente_codice_organizzato" />
+	    <EditText
+	        android:id="@+id/etClienteTelefono"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:gravity="top"
+	        android:inputType="phone"
+	        android:hint="@string/cliente_telefono" />
+		<ToggleButton 
+		    android:id="@+id/tb_audi"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Audi sì"
+		    android:textOff="Audi NO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_vw"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="VW sì"
+		    android:textOff="VW NO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_skoda"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Skoda sì"
+		    android:textOff="Skoda NO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_seat"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="SEAT sì"
+		    android:textOff="SEAT NO"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_vic"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="VIC sì"
+		    android:textOff="VIC NO"
+		    android:onClick="onToggleClicked"/>
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:text="@string/salva_cliente" 
+	        android:onClick="salva" />
+	    
+	    	    	    
+	</LinearLayout>
+	    
+</ScrollView>

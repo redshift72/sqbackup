@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:id="@+id/linearlayoutAssessment"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/et_pt_data"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:inputType="date"
+	        android:hint="@string/et_pt_data" />
+		<Spinner
+		    android:id="@+id/spinner"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+		<ToggleButton 
+		    android:id="@+id/tb_pt_esito"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Esito POSITIVO"
+		    android:textOff="Esito negativo"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_pt_discusso"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Discusso"
+		    android:textOff="NON ANCORA discusso"
+		    android:onClick="onToggleClicked"/>
+		<ToggleButton 
+		    android:id="@+id/tb_pt_correttivo"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Correttivo on"
+		    android:textOff="Correttivo off"
+		    android:onClick="onToggleClicked"/>
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:text="@string/salva_pt" 
+	        android:onClick="salva" />
+	    	    	    
+	</LinearLayout>
+
+</ScrollView>	    

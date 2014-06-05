@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gt.helprtq.Assessment" >
+
+    <item
+        android:id="@+id/ass_elimina"
+        android:orderInCategory="100"
+        android:title="@string/ass_elimina"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ass_nuovo"
+        android:orderInCategory="100"
+        android:title="@string/ass_nuovo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ass_modifica"
+        android:orderInCategory="100"
+        android:title="@string/ass_modifica"
+        app:showAsAction="ifRoom"/>
+    
+</menu>

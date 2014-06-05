@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gt.helprtq.Visita" >
+
+    <item
+        android:id="@+id/visita_elimina"
+        android:orderInCategory="100"
+        android:title="@string/pt_elimina"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/visita_nuovo"
+        android:orderInCategory="100"
+        android:title="@string/pt_nuovo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/visita_modifica"
+        android:orderInCategory="100"
+        android:title="@string/pt_modifica"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/visita_assessment"
+        android:orderInCategory="100"
+        android:title="@string/visita_assessment"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/visita_audit"
+        android:orderInCategory="100"
+        android:title="@string/visita_audit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/visita_vettura"
+        android:orderInCategory="100"
+        android:title="@string/visita_vettura"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/visita_pt"
+        android:orderInCategory="100"
+        android:title="@string/visita_pt"
+        app:showAsAction="never"/>
+    
+</menu>

@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:id="@+id/linearlayoutAssessment"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/etData"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:inputType="date"
+	        android:hint="@string/ass_data" />
+	    <EditText
+	        android:id="@+id/etRC"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/ass_RC" />
+	    <EditText
+	        android:id="@+id/etRS"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/ass_RS" />
+		<ToggleButton 
+		    android:id="@+id/tb_as_consegnato"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:textOn="Consegnato"
+		    android:textOff="NON ANCORA consegnato"
+		    android:onClick="onToggleClicked"/>
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:text="@string/salva_assessment" 
+	        android:onClick="salva" />
+	    	    	    
+	</LinearLayout>
+    
+</ScrollView>
