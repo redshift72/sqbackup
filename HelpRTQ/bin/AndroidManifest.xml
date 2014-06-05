@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gt.helprtq"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application 
+        android:allowBackup="true"
+        android:icon="@drawable/ic_car"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:backupAgent="BackupAgent" >
+		
+		<meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAI4zeRY4Q7RXCTeKxkRvQ4g2_IPehyCN3ZJY02iQ" />
+        
+        <activity
+            android:name="com.gt.helprtq.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovoCliente"
+            android:label="@string/title_activity_nuovo_cliente"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.ModificaCliente"
+            android:label="@string/title_activity_modifica_cliente"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.Audit"
+            android:label="@string/title_activity_audit"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovoAudit"
+            android:label="@string/title_activity_nuovo_audit"
+            android:parentActivityName="com.gt.helprtq.Audit" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.Audit" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.Assessment"
+            android:label="@string/title_activity_assessment"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovoAssessment"
+            android:label="@string/title_activity_nuovo_assessment"
+            android:parentActivityName="com.gt.helprtq.Assessment" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.Assessment" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.PT"
+            android:label="@string/title_activity_pt"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovoPT"
+            android:label="@string/title_activity_nuovo_pt"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.Vettura"
+            android:label="@string/title_activity_vettura"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovaVettura"
+            android:label="@string/title_activity_nuova_vettura"
+            android:parentActivityName="com.gt.helprtq.Vettura" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.Vettura" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.Visita"
+            android:label="@string/title_activity_visita"
+            android:parentActivityName="com.gt.helprtq.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gt.helprtq.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gt.helprtq.NuovaVisita"
+            android:label="@string/title_activity_nuova_visita" >
+        </activity>
+    </application>
+
+</manifest>
